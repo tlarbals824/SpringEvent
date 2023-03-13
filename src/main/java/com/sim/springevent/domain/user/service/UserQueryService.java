@@ -5,8 +5,8 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.sim.springevent.common.event.UserActionEvent.entity.UserAction;
-import com.sim.springevent.common.event.UserActionEvent.entity.UserActionType;
+import com.sim.springevent.domain.useraction.entity.UserAction;
+import com.sim.springevent.domain.useraction.entity.UserActionType;
 import com.sim.springevent.common.exception.BusinessException;
 import com.sim.springevent.domain.user.entity.User;
 import com.sim.springevent.domain.user.repository.UserRepository;

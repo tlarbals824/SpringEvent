@@ -1,4 +1,4 @@
-package com.sim.springevent.common.event.UserActionEvent.entity;
+package com.sim.springevent.domain.useraction.entity;
 
 import com.sim.springevent.common.entity.BaseEntity;
 import com.sim.springevent.domain.user.entity.User;
